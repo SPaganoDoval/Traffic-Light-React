@@ -1,4 +1,3 @@
-//import react into the bundle
 import React from "react";
 import ReactDOM from "react-dom";
 
@@ -6,9 +5,7 @@ import ReactDOM from "react-dom";
 import "../styles/index.css";
 
 //import your own components
-import {
-    TrafficLight
-} from "./component/trafficLight.jsx";
+import TrafficLight from "./component/trafficlight.jsx";
 
 //render your react application
 ReactDOM.render( < TrafficLight / > , document.querySelector("#app"));
